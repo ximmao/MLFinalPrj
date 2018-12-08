@@ -1,7 +1,9 @@
 # MLFinalPrj
 Final Project for Comp 652 on Image Style Transfer and Combination using StarGAN
 
-Implementation directly from original StarGAN code https://github.com/yunjey/stargan, dataset loaded with "RaFD" mode of original implementation hence the name 
+Implementation based on official StarGAN code https://github.com/yunjey/stargan, dataset loaded with "RaFD" mode of original implementation hence the name 
+
+Some Changes:
 Modify solver.py to solver_combine_trainLConly.py with added feature to support combined target label
 Add pixelwiseLC.py for network training linear combination coefficients.
 
