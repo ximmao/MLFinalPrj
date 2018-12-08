@@ -11,6 +11,7 @@ Add pixelwiseLC.py for network training linear combination coefficients.
 Keep all the arguments in the original implementation, add two: 
 
    --label_combine_list: show combination in samples during training
+   
    --train_combine_label: switch between transfer and combination mode
    
 data should be in data/RaFD/train/ & data/RaFD/test/. 
